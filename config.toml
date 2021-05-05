@@ -6,9 +6,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
     name = "example.org"
-    title = "Sada Theme"
+    title = "Jin Miao"
     author = "Darshan Baral"
-    description = "Simple portfolio theme"
+    description = "Personal Website for First-year PhD Student"
     copyright = "Custom copyright message"
     theme = "light" # `dark` or `light`
     useResources = false
@@ -47,16 +47,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         title = "Education"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
-        dates = "2016 - 2018"
-        thesis_title = "Title of the dissertation"
-        thesis_link = "#"
-
+        degree = "Master of Science in Marketing Science"
+        college = "Columbia University"
+        dates = "2017 - 2018"
+        
         [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
-        dates = "2010 - 2014"
+        degree = "Bachelor of Economics and Psychology"
+        college = "Tsinghua University"
+        dates = "2013 - 2017"
 
     # Languages section
     [params.language]
